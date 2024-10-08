@@ -1,0 +1,290 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+    padding:0;
+    margin:0;
+    /* font-family:'Source Sans Pro', sans-serif; */
+    
+}
+
+html {
+    font-size: 62, 5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.slide--center{
+    width:100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-11,.slide-13,.slide-15,slide-17{
+    background-color: #282A35;
+    width: 100%;
+}
+
+.slide-11 .slide{
+    padding-top: 91px;
+    padding-bottom: 96px;
+} 
+
+.slide__content{
+    text-align: center;
+}
+.content__header{
+    font-weight: 700;
+}
+.slide-11 .header--slide11{
+    font-size: 52px;
+    
+    letter-spacing: -0.4px;
+    line-height: 55px;
+}
+.content__sub{
+    font-weight: 600;
+}
+.sub--slide11 {
+    font-size: 25px;
+    padding: 19px 0 34px 0;
+    color: rgb(255, 192, 199);
+}
+
+.slide-11 .slide__body{
+    margin-bottom: 50px;
+}
+
+.body__items{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+    text-decoration-style:solid;
+    display: inline-block;
+    
+}
+.items--slide11{
+    padding-left: 85px;
+}
+.body__item .item__icon{
+    margin-right: 15px;
+    display:inline-flex;
+    margin-bottom: -4.9px;
+}
+
+.item__strong{
+    font-weight: 700;
+}
+
+.slide__btn {
+    margin: 0 auto; 
+    text-align: center; 
+    display: block;
+}
+.slide__btn a{
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+.slide__btn:hover {
+    background-color:#059862 ;
+    cursor: pointer;
+}
+.btn--learnMore {
+    width:300px;
+    height:52px;
+    border-radius: 25px;
+    line-height:52px ;
+    font-size: 20px;
+    background-color: rgb(4, 170, 109);
+}
+
+/* slide-12 */
+
+.slide-12{
+    color: #000;
+    background-color: rgb(243, 236, 234);
+    padding:80px 0 95px 0;
+}
+
+.slide-12 .slide{
+    margin: 0 auto; 
+    text-align: center; 
+    display: block;
+}
+
+.slide-12 .header--slide12{
+    font-size: 65px;
+    line-height: 97.5px;
+    margin-bottom: 5px;
+}
+
+.sub--slide12{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 26px;
+}
+
+.slide-12 .img--slide12:hover{
+    opacity:0.6;
+}
+
+/* slide-13 */
+
+.slide-13{
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding: 32px 35px ;
+    
+}
+.slide-13 .slide__body{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+ } 
+
+.slide-13 .body__text{
+    padding: clamp(9px, 3vw, 29.391px);
+}
+
+.slide-13 .header--slide13{
+    font-size: 70px;
+    line-height: 55px;
+    padding-top:13px;
+    margin-left: 20.924px;
+    margin-right: 20.924px;
+}
+
+.sub--slide13{
+    font-size: 19px;
+    line-height: 28.5px;
+    margin:42.8px 0 37.8px 0;
+
+}
+.items--slide13{
+    padding-left: 79px;
+    margin-bottom: 35px;
+}
+
+
+.slide13__img{
+    margin: clamp(9px, 3vw, 29.391px);
+    max-width:500px;
+    min-width: 282px;
+    
+}
+.img--classroom{
+    width:100%;
+    height: auto;
+    margin-top:16px;
+}
+.slide-13 .btn--learnMore{
+    width: 200px;
+    height: 43px;
+    font-size: 18px;
+    line-height: 43px;
+}
+.slide-14{
+    background-color: rgb(150, 212, 212);
+}
+.slide-14 .slide{
+    text-align: center;
+}
+.slide-14 .slide__content{
+    color:black;
+}
+.slide-14 .sub--slide14{
+    font-family: 'Freckle Face', cursive;
+    font-size: 32px;
+    /* line-height: 48px; */
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.slide-14 .header--slide14{
+    font-family: 'Freckle Face', cursive;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 400;
+    margin-top:81.141px;
+}
+.slide__body{
+
+}
+.img--slide14:hover{
+    opacity: 0.6;
+}
+
+.slide-14 .btn--playGame{
+    width: 200px;
+    height: 52px;
+    background-color:rgb(40, 42, 53) ;
+    border-radius: 25px;
+    line-height: 30px;
+    padding:11px 0;
+    margin-top:31px;
+    margin-bottom: 96.141px;
+}
+.slide-14 .btn--playGame:hover{
+    background-color: #000;
+}
+
+/* slide-15 */
+
+
+.slide-15 {
+    padding: 64px 20px;
+}
+
+.slide__content{
+
+}
+
+.slide-15 .header--slide15{
+    font-size: 65px;
+    line-height: 97.5px;
+    margin:10px 0;
+}
+
+.slide-15 .sub--slide15{
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.slide-15 .slide__body{
+    display: inline-flex;
+    width: 2486px;
+}
+
+.slide-15 .body__color {
+    line-height: 52.5px;
+    padding: 70px 50px;
+    width:43.5vw;
+    opacity:0.97;
+    border-radius: 5px;
+    height: 52px;
+    /* z-index:-100 ; */
+}
+
+
+.color--green{
+    background-color:rgb(4, 170, 109) ;
+}
+.slide-15 a{
+    text-decoration: none;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 35px;
+}
+
+.color--beige{
+    background-color:rgb(255, 244, 163);
+}
+
+
